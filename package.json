@@ -9,7 +9,7 @@
         "dx-cli"
     ],
     "engines": {
-        "node": ">=4.0.0"
+        "node": ">=7.2.0"
     },
     "repository": {
         "type": "git",
