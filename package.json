@@ -14,6 +14,9 @@
         "type": "git",
         "url": "https://github.com/dexter0201/dx-cli"
     },
+    "bin": {
+        "dx": "bin/dx-cli"
+    },
     "scripts": {
         "lint": "eslint --ignore-path=.gitignore .",
         "posttest": "npm run lint"
@@ -22,6 +25,9 @@
         "ci": {
             "debug": "*,-mocha:*,-eslint:*"
         }
+    },
+    "dependencies": {
+        "nopt": "^4.0.1"
     },
     "devDependencies": {
         "eslint": "^3.12.1",
