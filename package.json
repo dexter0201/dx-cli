@@ -1,6 +1,7 @@
 {
     "name": "dx-cli",
     "version": "0.1.0",
+    "author": "Dexter Nguyen",
     "description": "Dexter's command line tools",
     "license": "MIT",
     "homepage": "http://dexternguyen.com",
